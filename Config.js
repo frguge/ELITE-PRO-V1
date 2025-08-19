@@ -11,8 +11,8 @@ global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
 // Creator details
 global.ownernumber = process.env.OWNER_NUMBER || '242069283966';
-global.ownername = process.env.OWNER_NAME || 'BMK_LAMELO';
-global.botname = process.env.BOT_NAME || 'LAMELO';
+global.ownername = process.env.OWNER_NAME || 'BMK_LAMELO🦂';
+global.botname = process.env.BOT_NAME || 'LAMELO🇨🇩';
 
 // Default settings 
 global.prefix = process.env.PREFIX || '.';
@@ -24,7 +24,7 @@ global.autoread = process.env.AUTO_READ === 'false';
 global.autobio = process.env.AUTO_BIO !== 'true'; // default true
 global.anti92 = process.env.ANTI_92 === 'true';
 global.autoswview = process.env.AUTO_SW_VIEW !== 'true'; // default true
-global.welcome = process.env.WELCOME !== 'false'; // default true
+global.welcome = process.env.WELCOME !== 'true'; // default true
 global.autoreact = process.env.AUTO_REACT === 'false';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'false';
 
